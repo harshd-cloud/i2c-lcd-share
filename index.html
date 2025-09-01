@@ -42,9 +42,7 @@
 
       <div class="codewrap">
         <pre id="code"><code>
-## =============================================================
-## START OF SHARED CODE
-
+# I2C LCD Library code
 # i2c_lcd.py
 # Merged library from LcdApi + I2C HAL (PCF8574)
 # Works with Raspberry Pi Pico + I2C LCD (HD44780)
@@ -229,9 +227,6 @@ class I2cLcd(LcdApi):
 
         if value <= 3:  # slow commands
             utime.sleep_ms(5)
-
-## END OF SHARED CODE
-## =============================================================
 </code></pre>
       </div>
     </div>
